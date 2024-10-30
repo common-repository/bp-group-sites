@@ -1,0 +1,166 @@
+/*
+================================================================================
+BP Group Sites Stylesheet
+================================================================================
+AUTHOR: Christian Wach <needle@haystack.co.uk>
+--------------------------------------------------------------------------------
+NOTES
+=====
+
+Provide basic styles for plugin elements.
+
+--------------------------------------------------------------------------------
+*/
+
+
+
+/*
+--------------------------------------------------------------------------------
+Default styles for filtering comments.
+--------------------------------------------------------------------------------
+*/
+#bpgsites-post-in-box
+{
+	display: block;
+}
+
+div.bpgsites_group_filter
+{
+}
+
+div.bpgsites_group_filter form
+{
+	padding: 2%;
+}
+
+.bpgsites_comment_group_label
+{
+	cursor: pointer;
+}
+
+.bpgsites_comment_group
+{
+	display: block;
+}
+
+
+
+/*
+--------------------------------------------------------------------------------
+Default styles for filtering group linkages.
+--------------------------------------------------------------------------------
+*/
+.bpgsites_group_linkage
+{
+	clear: both;
+	border: 1px solid #eee;
+	padding: 0.2em 1em 0 1em;
+}
+
+.bpgsites_group_linkages
+{
+	margin: 0 0 1em 0;
+}
+
+.bpgsites_linked_group
+{
+	display: block;
+}
+
+.bpgsites_linked_group_label
+{
+	display: inline-block;
+	cursor: pointer;
+	margin: 0;
+}
+
+/* "Reading with" list */
+#blogs-list ol.bpgsites_group_linkages_list
+{
+	margin: 0;
+	border-top: 1px solid #eee;
+}
+
+#blogs-list ol.bpgsites_group_linkages_list li
+{
+	padding: 5px;
+	border-bottom: 1px solid #eee;
+}
+
+.bpgsites_group_unlink
+{
+	margin-right: 1em;
+}
+
+/* "Invitations" list */
+.bpgsites_group_linkages_pending
+{
+	clear: both;
+	border: 1px solid #eee;
+	padding: 1em;
+	margin: 0 0 1em 0;
+}
+
+ol.bpgsites_group_linkages_pending_list
+{
+	list-style: none;
+	list-style-image: none;
+	margin: 0;
+	border-top: 1px solid #eee;
+}
+
+ol.bpgsites_group_linkages_pending_list li
+{
+	padding: 5px;
+	border-bottom: 1px solid #eee;
+}
+
+.bpgsites_invite_received
+{
+	margin-right: 1em;
+}
+
+
+
+/*
+--------------------------------------------------------------------------------
+Default styles for comment amendments.
+--------------------------------------------------------------------------------
+*/
+.bpgsites_comment_posted_in
+{
+	font-size: 70%;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	margin: 0.7em 0;
+}
+
+.bpgsites_comment_posted_in a:focus,
+div#sidebar .comments_container .comment-content .bpgsites_comment_posted_in a:focus
+{
+	text-decoration: underline;
+}
+
+.bpgsites_comment_posted_in a,
+.bpgsites_comment_posted_in a:active,
+div#sidebar .comments_container .comment-content .bpgsites_comment_posted_in a,
+div#sidebar .comments_container .comment-content .bpgsites_comment_posted_in a:active
+{
+	text-decoration: none;
+}
+
+
+
+/*
+--------------------------------------------------------------------------------
+Overridden styles for Select2.
+--------------------------------------------------------------------------------
+*/
+
+.select2-container
+{
+	width: 80%;
+}
+
+
+
